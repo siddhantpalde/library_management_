@@ -151,11 +151,8 @@ public class Data {
             createUserDb();
             createBookDb();
             createIssuedBookDb(connection);
-            // Perform database operations here
-            // Close the connection when done
-
         } catch (SQLException e) {
-            e.printStackTrace(); // Handle or log the exception as needed
+            e.printStackTrace();
         }
     }
 
